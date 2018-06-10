@@ -1,8 +1,15 @@
 # Jekyll Picture Tag
 
-**Important note**
+**Important note (Boucherie)**
 
-This is a forked version of the Jekyll Picture Tag, with an updated dependency for the fastimage gem (pessimistic version control to optimistic).
+This is a forked version of the Jekyll Picture Tag, with an updated dependency for the fastimage gem (pessimistic version control ~> to optimistic >= ). This was done to bypass conflict with other jekyll plugins that required newer versions of fastimage.
+
+To install, add this line to your Gemfile:
+
+```ruby
+   gem 'jekyll-picture-tag', :git => "git@github.com:Boucherie/jekyll-picture-tag.git"
+
+```
 
 **Easy responsive images for Jekyll.**
 
